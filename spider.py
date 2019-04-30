@@ -77,9 +77,10 @@ class Spider:
         for url in links:
             if (url in Spider.queue) or (url in Spider.crawled):
                 continue
-            if "xiaomi" not in url:
-                # print("yes mc")
-                continue
+#             Uncomment if you want specific keyword in url                
+#             if "xiaomi" not in url:
+#                 # print("yes mc")
+#                 continue
             # if Spider.domain_name != get_domain_name(url):
             #     continue
             Spider.queue.add(url)
