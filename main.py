@@ -5,7 +5,7 @@ from domain import *
 from general import *
 
 
-PROJECT_NAME = 'stodict-dict2'
+PROJECT_NAME = 'URL_Crawlar'
 HOMEPAGE = 'https://www.gsmarena.com/'
 DOMAIN_NAME = get_domain_name(HOMEPAGE)
 QUEUE_FILE = PROJECT_NAME + '/queue.txt'
